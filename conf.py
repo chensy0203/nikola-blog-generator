@@ -57,8 +57,9 @@ SIDEBAR_LINKS = {
     DEFAULT_LANG: (
         ('/index.html', '首页'),
         ('/archive.html', '存档'),
-        ('/stories/about.html', '关于'),
         ('/stories/bookshelf.html', '书架'),
+        ('/stories/translation.html', '翻译'),
+        ('/stories/about.html', '关于'),
         ('/rss.xml', 'RSS'),
     ),
 }
