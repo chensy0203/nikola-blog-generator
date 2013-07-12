@@ -18,6 +18,15 @@
         %if search_form:
                 ${search_form}
         %endif
+        <ul class="cate_box">
+            <li class="categories"><h2>前端导航</h2>
+                <ul>
+                   % for link in g_blog_site_links:
+                    <li class="cat-item "><a href="${link[1]}" target="_blank">${link[0]}</a></li>
+                    % endfor
+                </ul>
+            </li>
+        </ul>
         <ul class="cate_box" id="cateBox">
             <li class="categories">文章分类
                 <ul>
@@ -35,21 +44,13 @@
                 </ul>
             </li>
         </ul>
-        <ul class="links_box" id="linksBox">
-            <li id="linkcat-2" class="linkcat"><h2>推荐网站</h2>
-                <ul class="xoxo blogroll">
-                    % for link in g_blog_site_links:
-                    <li><a href="${link[1]}" target="_blank">${link[0]}</a></li>
-                    % endfor
-                </ul>
-            </li>
-        </ul>
     </div>
 </%block>
 
 
 <%block name="base_footer_content">
     ${base_helper.late_load_js()}
+    ${base_helper.go_top_js()}
     <%block name="load_comment_num"></%block>
 </%block>
 

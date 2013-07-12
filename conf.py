@@ -57,8 +57,6 @@ SIDEBAR_LINKS = {
     DEFAULT_LANG: (
         ('/index.html', '首页'),
         ('/archive.html', '存档'),
-        ('/stories/bookshelf.html', '书架'),
-        ('/stories/translation.html', '翻译'),
         ('/stories/about.html', '关于'),
         ('/rss.xml', 'RSS'),
     ),
@@ -510,8 +508,14 @@ GLOBAL_CONTEXT = {
     "g_blog_author_short_desc":"Java Web开发工程师，前端爱好者，技术宅，现居广州，创业中",
     "g_blog_author_avatar":"/100x100.png",
     "g_blog_author_url":"/stories/about.html",
-    "g_blog_friend_links":[["shuyaochen","http://shuyaochen.diandian.com/"],["雨夜带刀","http://stylechen.com/"]],
-    "g_blog_site_links":[["github","https://github.com/"]],
+    "g_blog_friend_links":[["shuyaochen","http://shuyaochen.diandian.com/"]],
+    "g_blog_site_links":[["前端博客","/stories/web-site-nav.html#front-end-blog"],
+        ["前端工具","/stories/web-site-nav.html#front-end-tool"],
+        ["HTML5&CSS3","/stories/web-site-nav.html#html5-css3"],
+        ["CSS框架","/stories/web-site-nav.html#css-framework"],
+        ["JS框架","/stories/web-site-nav.html#js-framework"],
+        ["node.js","/stories/web-site-nav.html#nodejs"],
+        ["前端集成解决方案","/stories/web-site-nav.html#front-end-solution"]],
     "g_blog_sidebox":
     """
         <div class="side_box">
@@ -520,6 +524,18 @@ GLOBAL_CONTEXT = {
         <div class="side_box">
             facebook：<a href="https://www.facebook.com/chensy0203" target="_blank">chensy0203</a>
         </div>
+        <ul class="cate_box">
+            <li class="categories">我的书架
+                <ul>
+                   <li class="cat-item ">
+                        <a href="/stories/translation.html" title="翻译也是一种学习的过程" target="_blank">翻译也是一种学习</a>
+                   </li>
+                   <li class="cat-item ">
+                        <a href="/stories/bookshelf.html" title="书中自有黄金屋" target="_blank">书中自有黄金屋</a>
+                   </li>
+                </ul>
+            </li>
+        </ul>
     """,
     "g_blog_duo_shuo_short_name":"chensy0203"
 }

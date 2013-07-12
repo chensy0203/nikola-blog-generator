@@ -5,6 +5,14 @@
 
 <%inherit file="base_base.tmpl"/>
 
+<%block name="extra_head">
+	<style>
+		.header{
+			display:none;
+		}
+	</style>
+</%block>
+
 <%block name="base_body_content">
 	${post.text(lang)}  
 	%if post.meta('comment')=="True":
