@@ -509,13 +509,11 @@ GLOBAL_CONTEXT = {
     "g_blog_author_avatar":"/100x100.png",
     "g_blog_author_url":"/stories/about.html",
     "g_blog_friend_links":[["shuyaochen","http://shuyaochen.diandian.com/"]],
-    "g_blog_site_links":[["前端博客","/stories/web-site-nav.html#front-end-blog"],
-        ["前端工具","/stories/web-site-nav.html#front-end-tool"],
-        ["HTML5&CSS3","/stories/web-site-nav.html#html5-css3"],
-        ["CSS框架","/stories/web-site-nav.html#css-framework"],
-        ["JS框架","/stories/web-site-nav.html#js-framework"],
-        ["node.js","/stories/web-site-nav.html#nodejs"],
-        ["前端集成解决方案","/stories/web-site-nav.html#front-end-solution"]],
+    "g_blog_site_links":[["那些博客","/stories/web-site-nav.html#front-end-blog"],
+        ["那些工具","/stories/web-site-nav.html#front-end-tool"],
+        ["那些CSS","/stories/web-site-nav.html#those-css"],
+        ["那些JS","/stories/web-site-nav.html#those-js"],
+        ["那些解决方案","/stories/web-site-nav.html#front-end-solution"]],
     "g_blog_sidebox":
     """
         <div class="side_box">
