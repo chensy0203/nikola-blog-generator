@@ -505,7 +505,7 @@ USE_CDN = False
 # It can be anything, data, functions, modules, etc.
 
 GLOBAL_CONTEXT = {
-    "g_blog_author_short_desc":"Java Web开发工程师，前端爱好者，技术宅，现居广州，创业中",
+    "g_blog_author_short_desc":"Java Web开发工程师，前端爱好者，技术宅，现居广州",
     "g_blog_author_avatar":"/100x100.png",
     "g_blog_author_url":"/stories/about.html",
     "g_blog_friend_links":[["shuyaochen","http://shuyaochen.diandian.com/"]],
